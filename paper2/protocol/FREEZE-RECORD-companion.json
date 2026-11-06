@@ -1,0 +1,30 @@
+{
+ "analysis_sha256": "febebcadbbc60e2d05832a2d0002ae93b182adedbed175327fd0f9f788f4b53f",
+ "freeze_sha256": "9f3598571ef99442fbf25a3f44dcb49a5f190c0ddf117f0f9e413e7089198b27",
+ "profile": {
+  "guard_sha256": {
+   "heading": "3bde2cf1bb491e9ba0572693348e1c8246863a4cb52fc8215087c9a75d64eaed",
+   "report": "b0c59c8fe08cc507d53030a743b1a52384ac93698fb24229d9a309917817f80a"
+  },
+  "learn": {
+   "base_url": "{reasoning_model}",
+   "effort": "xhigh",
+   "input_cap": 16384,
+   "max_output_tokens": 131072,
+   "model": "Qwen/Qwen3.8-27B",
+   "timeout_s": 3600
+  },
+  "learn_candidates": 3,
+  "learn_regression": 8,
+  "local": {
+   "base_url": "{small_model}",
+   "model": "Qwen/Qwen3-4B-Instruct-2507"
+  },
+  "model_report_control": true,
+  "small_interval_s": 30,
+  "stand_in": false,
+  "watch_briefing": false
+ },
+ "scope": "scored streams 4301 to 4304, conditions L, C, F and C-full (amendment 7)",
+ "source_commit": "4b607c89379f64572ad8c910c2e41359cc2f2fca"
+}

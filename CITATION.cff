@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software or its study records, please cite them as below."
+type: software
+title: "Telohelm: replacing repeated language-model decisions with tested procedures"
+abstract: >-
+  Telohelm is a self-adaptive agent that replaces repeated language-model
+  decisions with procedures that a reasoning model writes between episodes.
+  A separate monitor admits a procedure only after replaying recorded
+  episodes with it and no model calls, and the records show whether each
+  adopted procedure acts later. The repository holds the agent, the
+  simulated air-to-air refuelling task, the study runner, protocol
+  and analysis, and the readers that reproduce the paper's tables, including
+  a comparison with the reasoning model flying alone; the study records are
+  archived with it on Zenodo.
+authors:
+  - family-names: Vajda
+    given-names: Simon
+    affiliation: "Applied Artificial Intelligence Institute, Deakin University, Burwood, Victoria, Australia"
+    orcid: "https://orcid.org/0000-0002-2751-4816"
+version: 0.1.0
+doi: 10.5281/zenodo.23993336
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23993336
+    description: "The software on Zenodo"
+  - type: doi
+    value: 10.5281/zenodo.23993339
+    description: "The study records on Zenodo"
+license: MIT
+repository-code: "https://github.com/Rainierraoul/telohelm"
+keywords:
+  - self-adaptive systems
+  - language-model agents
+  - procedure learning
+  - runtime verification
+  - function allocation

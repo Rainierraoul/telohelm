@@ -1,0 +1,7721 @@
+{
+ "inputs": {
+  "cluster-records/scored-4304-20261102/terminal/frozen-analysis/analysis.json": "415fd80d33371dd5bdecffe69b6bd7c63cbf274f32d8a01a7f1ed072e10ba818",
+  "paper2/reproduction/scored-4339375-terminal-codex-20261030.json": "c1ca28542b9c1dcb972769df28d148a134f9f4649df41887d529ceeb5cb7da9d",
+  "paper2/reproduction/scored-4403902-terminal-codex-20261101.json": "89c73924b2cd6d928f7c692f67dcabbca93deab92b786d8d6acad6bc7b1cf3b6",
+  "paper2/reproduction/scored-4499845-terminal-codex-20261102.json": "57bd7c497040bdfeade9e7674ff54fe29bdb60b4198714866200915b3e61834f",
+  "paper2/reproduction/scored-4503929-terminal-codex-20261103.json": "b9974ce5f45132bbfb5148519c473522a8b56f3529ce0760eae323566598fd6e"
+ },
+ "dispositions": {
+  "4301": {
+   "status": "ran"
+  },
+  "4302": {
+   "status": "ran"
+  },
+  "4303": {
+   "status": "ran"
+  },
+  "4304": {
+   "status": "ran"
+  }
+ },
+ "gpu_hours": {
+  "4301": 62.05444444444444,
+  "4302": 38.41111111111111,
+  "4303": 38.10166666666667,
+  "4304": 47.43
+ },
+ "per_stream": {
+  "4301": {
+   "L_all": {
+    "met_alone": 30,
+    "met_with_help": 34,
+    "missed": 36
+   },
+   "L_by_phase": {
+    "1": {
+     "met_alone": 0,
+     "met_with_help": 15,
+     "missed": 5
+    },
+    "2": {
+     "met_alone": 0,
+     "met_with_help": 19,
+     "missed": 1
+    },
+    "3": {
+     "met_alone": 12,
+     "met_with_help": 0,
+     "missed": 8
+    },
+    "4": {
+     "met_alone": 18,
+     "met_with_help": 0,
+     "missed": 2
+    },
+    "5": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched": {
+    "L": {
+     "met_alone": 7,
+     "met_with_help": 9,
+     "missed": 4
+    },
+    "C": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    },
+    "C-full": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched_cost": {
+    "L": {
+     "positions": 20,
+     "model_calls": 58,
+     "tokens_in": 61495,
+     "tokens_out": 9067,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 3516,
+      "holding_pending": 56,
+      "procedure": 16733,
+      "reasoning_model": 0,
+      "small_model": 28
+     }
+    },
+    "C": {
+     "positions": 20,
+     "model_calls": 620,
+     "tokens_in": 578418,
+     "tokens_out": 26842,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 70335,
+      "holding_pending": 1110,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 555
+     }
+    },
+    "C-full": {
+     "positions": 20,
+     "model_calls": 24066,
+     "tokens_in": 22111583,
+     "tokens_out": 308684,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 0,
+      "holding_pending": 48002,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 23998
+     }
+    }
+   },
+   "matched_learning_share": {
+    "model_calls": 1.7076941211830046,
+    "tokens_in": 15510.438579418995,
+    "tokens_out": 97334.89125266483
+   },
+   "L_all_flight_cost_known_subtotal": {
+    "model_calls": 260,
+    "tokens_in": 270596,
+    "tokens_out": 58326
+   },
+   "L_all_flight_unknown_calls": 0,
+   "learning_cost": {
+    "known_subtotal": {
+     "model_calls": 21,
+     "tokens_in": 252345,
+     "tokens_out": 1239948
+    },
+    "unknown_calls": {
+     "tokens_in": 0,
+     "tokens_out": 0
+    }
+   },
+   "learning_attempts": [
+    {
+     "boundary": "s4301-p1-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p2-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p2-e19",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p3-e04",
+     "results": [
+      [
+       "report",
+       false
+      ],
+      [
+       "report",
+       false
+      ],
+      [
+       "report",
+       false
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p3-e09",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p3-e14",
+     "results": [
+      [
+       "report",
+       false
+      ],
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p4-e04",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p4-e19",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p5-e04",
+     "results": [
+      [
+       "report",
+       false
+      ],
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p5-e09",
+     "results": [
+      [
+       "report",
+       false
+      ],
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p5-e14",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4301-p5-e19",
+     "results": [
+      [
+       "report",
+       false
+      ],
+      [
+       "heading",
+       true
+      ]
+     ]
+    }
+   ],
+   "floor_breaches": 2,
+   "candidate_counts": {
+    "validly_formed_and_trialled": 19,
+    "trial_passed_and_adopted": 11,
+    "trial_failed": 8,
+    "candidate_refused": 2,
+    "adopted_with_later_L_exact_source_use": 10,
+    "adopted_without_later_L_exact_source_use": 1
+   },
+   "phase3": [
+    {
+     "block": 1,
+     "boundary": "s4301-p3-e04",
+     "attempts": 1,
+     "adoptions": 0,
+     "informative": true,
+     "L_before": {
+      "met_alone": 3,
+      "met_with_help": 0,
+      "missed": 2
+     },
+     "L_after": {
+      "met_alone": 4,
+      "met_with_help": 0,
+      "missed": 1
+     },
+     "F_after": {
+      "met_alone": 4,
+      "met_with_help": 0,
+      "missed": 1
+     }
+    },
+    {
+     "block": 2,
+     "boundary": "s4301-p3-e14",
+     "attempts": 1,
+     "adoptions": 1,
+     "informative": true,
+     "L_before": {
+      "met_alone": 0,
+      "met_with_help": 0,
+      "missed": 5
+     },
+     "L_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "F_after": {
+      "met_alone": 2,
+      "met_with_help": 0,
+      "missed": 3
+     }
+    }
+   ],
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 1,
+    "C phase 4 missing_tool": 4,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 1,
+    "C-full phase 4 missing_tool": 4,
+    "L phase 1 missing_tool": 20,
+    "L phase 2 missing_tool": 20,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "L_episodes": [
+    {
+     "episode": "s4301-p1-e00",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4301-p1-e01",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4301-p1-e02",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4301-p1-e03",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4301-p1-e04",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4301-p1-e05",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 751,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e06",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 1099,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e07",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 619,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e08",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 634,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e09",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 681,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e10",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 1207,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e11",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 962,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e12",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 1591,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e13",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 629,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e14",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 645,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e15",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 1317,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e16",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 740,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e17",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 849,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e18",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 986,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p1-e19",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 667,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e00",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 936,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e01",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 553,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e02",
+     "phase": 2,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 3600,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e03",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 737,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e04",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 698,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e05",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 581,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e06",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 773,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e07",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 696,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e08",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 765,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e09",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 681,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e10",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 731,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e11",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 607,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e12",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 663,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e13",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 553,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e14",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 724,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e15",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 849,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e16",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 597,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e17",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 632,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e18",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 618,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p2-e19",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 786,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e00",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 648,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e01",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 995,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e02",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 898,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e03",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 698,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e04",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 3126,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e05",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 541,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e06",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 568,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e07",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 777,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e08",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 601,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e09",
+     "phase": 3,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 3600,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e10",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 594,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e11",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 549,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e12",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 576,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e13",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 633,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e14",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 631,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e15",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 518,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e16",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 699,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e17",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 622,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e18",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 786,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p3-e19",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 592,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e00",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 770,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e01",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1013,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e02",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 486,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e03",
+     "phase": 4,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1183,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e04",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1009,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e05",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 841,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e06",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 582,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e07",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 628,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e08",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 689,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e09",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 640,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e10",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 603,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e11",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 630,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e12",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 673,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e13",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 894,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e14",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 694,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e15",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1223,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e16",
+     "phase": 4,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1137,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e17",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 640,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e18",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 621,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p4-e19",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 526,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e00",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 689,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e01",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 704,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e02",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 522,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e03",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 622,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e04",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 613,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e05",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 710,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e06",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 707,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e07",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 810,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e08",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 653,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e09",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 647,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e10",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 766,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e11",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 678,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e12",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 673,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e13",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 708,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e14",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 610,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e15",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 696,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e16",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 685,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e17",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 784,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e18",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 492,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4301-p5-e19",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 688,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    }
+   ]
+  },
+  "4302": {
+   "L_all": {
+    "met_alone": 41,
+    "met_with_help": 29,
+    "missed": 30
+   },
+   "L_by_phase": {
+    "1": {
+     "met_alone": 0,
+     "met_with_help": 15,
+     "missed": 5
+    },
+    "2": {
+     "met_alone": 5,
+     "met_with_help": 14,
+     "missed": 1
+    },
+    "3": {
+     "met_alone": 16,
+     "met_with_help": 0,
+     "missed": 4
+    },
+    "4": {
+     "met_alone": 20,
+     "met_with_help": 0,
+     "missed": 0
+    },
+    "5": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched": {
+    "L": {
+     "met_alone": 10,
+     "met_with_help": 7,
+     "missed": 3
+    },
+    "C": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    },
+    "C-full": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched_cost": {
+    "L": {
+     "positions": 20,
+     "model_calls": 83,
+     "tokens_in": 82037,
+     "tokens_out": 10458,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 7032,
+      "holding_pending": 112,
+      "procedure": 14685,
+      "reasoning_model": 0,
+      "small_model": 56
+     }
+    },
+    "C": {
+     "positions": 20,
+     "model_calls": 620,
+     "tokens_in": 577407,
+     "tokens_out": 51290,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 70335,
+      "holding_pending": 1110,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 555
+     }
+    },
+    "C-full": {
+     "positions": 20,
+     "model_calls": 24069,
+     "tokens_in": 22179837,
+     "tokens_out": 324957,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 0,
+      "holding_pending": 48004,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 23996
+     }
+    }
+   },
+   "matched_learning_share": {
+    "model_calls": 1.1212782673491868,
+    "tokens_in": 9841.770957526081,
+    "tokens_out": 59688.614126385015
+   },
+   "L_all_flight_cost_known_subtotal": {
+    "model_calls": 244,
+    "tokens_in": 249119,
+    "tokens_out": 39873
+   },
+   "L_all_flight_unknown_calls": 1,
+   "learning_cost": {
+    "known_subtotal": {
+     "model_calls": 13,
+     "tokens_in": 158854,
+     "tokens_out": 734135
+    },
+    "unknown_calls": {
+     "tokens_in": 0,
+     "tokens_out": 0
+    }
+   },
+   "learning_attempts": [
+    {
+     "boundary": "s4302-p1-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4302-p2-e14",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4302-p2-e19",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4302-p3-e14",
+     "results": [
+      [
+       "report",
+       false
+      ],
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4302-p5-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4302-p5-e09",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4302-p5-e14",
+     "results": [
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4302-p5-e19",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    }
+   ],
+   "floor_breaches": 1,
+   "candidate_counts": {
+    "validly_formed_and_trialled": 10,
+    "trial_passed_and_adopted": 8,
+    "trial_failed": 2,
+    "candidate_refused": 3,
+    "adopted_with_later_L_exact_source_use": 7,
+    "adopted_without_later_L_exact_source_use": 1
+   },
+   "phase3": [
+    {
+     "block": 1,
+     "boundary": "s4302-p3-e04",
+     "attempts": 0,
+     "adoptions": 0,
+     "informative": false,
+     "L_before": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "L_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "F_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     }
+    },
+    {
+     "block": 2,
+     "boundary": "s4302-p3-e14",
+     "attempts": 1,
+     "adoptions": 1,
+     "informative": true,
+     "L_before": {
+      "met_alone": 1,
+      "met_with_help": 0,
+      "missed": 4
+     },
+     "L_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "F_after": {
+      "met_alone": 0,
+      "met_with_help": 0,
+      "missed": 5
+     }
+    }
+   ],
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 2,
+    "C phase 4 missing_tool": 3,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 2,
+    "C-full phase 4 missing_tool": 3,
+    "L phase 1 missing_tool": 20,
+    "L phase 2 missing_tool": 15,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "L_episodes": [
+    {
+     "episode": "s4302-p1-e00",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4302-p1-e01",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4302-p1-e02",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4302-p1-e03",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4302-p1-e04",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4302-p1-e05",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 662,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e06",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 708,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e07",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 613,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e08",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 746,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e09",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 580,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e10",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 748,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e11",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 587,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e12",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 804,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e13",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 687,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e14",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 649,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e15",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 669,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e16",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 710,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e17",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 534,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e18",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 681,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p1-e19",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 685,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e00",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 841,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e01",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 619,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e02",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 506,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e03",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 675,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e04",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 572,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e05",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 527,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e06",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 622,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e07",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 760,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e08",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 609,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e09",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 644,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e10",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 655,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e11",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 782,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e12",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 525,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e13",
+     "phase": 2,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 2,
+     "heading_seconds": {
+      "procedure": 819,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e14",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 584,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e15",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 672,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e16",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 498,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e17",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 670,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e18",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 623,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p2-e19",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 842,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e00",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1382,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e01",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 663,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e02",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1063,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e03",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1075,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e04",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1066,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e05",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1454,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e06",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1194,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e07",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1379,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e08",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1566,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e09",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 980,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e10",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 797,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e11",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 615,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e12",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 797,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e13",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 606,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e14",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 862,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e15",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 845,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e16",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 561,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e17",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 677,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e18",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 630,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p3-e19",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 619,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e00",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1002,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e01",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 828,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e02",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 951,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e03",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 461,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e04",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 562,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e05",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 644,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e06",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 692,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e07",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1095,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e08",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 967,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e09",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 791,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e10",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1024,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e11",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 635,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e12",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 793,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e13",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 745,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e14",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 958,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e15",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 971,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e16",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 696,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e17",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 905,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e18",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 799,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p4-e19",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 710,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e00",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 535,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e01",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 849,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e02",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 593,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e03",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 760,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e04",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 738,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e05",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 683,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e06",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 816,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e07",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 517,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e08",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 542,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e09",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 498,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e10",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 723,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e11",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 518,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e12",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 587,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e13",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 565,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e14",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 691,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e15",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 626,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e16",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 669,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e17",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 764,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e18",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 654,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4302-p5-e19",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 591,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    }
+   ]
+  },
+  "4303": {
+   "L_all": {
+    "met_alone": 37,
+    "met_with_help": 35,
+    "missed": 28
+   },
+   "L_by_phase": {
+    "1": {
+     "met_alone": 0,
+     "met_with_help": 15,
+     "missed": 5
+    },
+    "2": {
+     "met_alone": 0,
+     "met_with_help": 20,
+     "missed": 0
+    },
+    "3": {
+     "met_alone": 17,
+     "met_with_help": 0,
+     "missed": 3
+    },
+    "4": {
+     "met_alone": 20,
+     "met_with_help": 0,
+     "missed": 0
+    },
+    "5": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched": {
+    "L": {
+     "met_alone": 9,
+     "met_with_help": 8,
+     "missed": 3
+    },
+    "C": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    },
+    "C-full": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched_cost": {
+    "L": {
+     "positions": 20,
+     "model_calls": 86,
+     "tokens_in": 86147,
+     "tokens_out": 18691,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 7032,
+      "holding_pending": 112,
+      "procedure": 13705,
+      "reasoning_model": 0,
+      "small_model": 56
+     }
+    },
+    "C": {
+     "positions": 20,
+     "model_calls": 620,
+     "tokens_in": 579334,
+     "tokens_out": 29940,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 70335,
+      "holding_pending": 1110,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 555
+     }
+    },
+    "C-full": {
+     "positions": 20,
+     "model_calls": 24069,
+     "tokens_in": 22268088,
+     "tokens_out": 369265,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 0,
+      "holding_pending": 48004,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 23996
+     }
+    }
+   },
+   "matched_learning_share": {
+    "model_calls": 0.7675834945524895,
+    "tokens_in": 7681.509214947562,
+    "tokens_out": 46157.46935775379
+   },
+   "L_all_flight_cost_known_subtotal": {
+    "model_calls": 260,
+    "tokens_in": 270719,
+    "tokens_out": 67211
+   },
+   "L_all_flight_unknown_calls": 0,
+   "learning_cost": {
+    "known_subtotal": {
+     "model_calls": 13,
+     "tokens_in": 177533,
+     "tokens_out": 791754
+    },
+    "unknown_calls": {
+     "tokens_in": 0,
+     "tokens_out": 0
+    }
+   },
+   "learning_attempts": [
+    {
+     "boundary": "s4303-p1-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4303-p2-e19",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4303-p3-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4303-p3-e14",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4303-p5-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4303-p5-e09",
+     "results": [
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4303-p5-e14",
+     "results": [
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       false
+      ]
+     ]
+    },
+    {
+     "boundary": "s4303-p5-e19",
+     "results": [
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       true
+      ]
+     ]
+    }
+   ],
+   "floor_breaches": 1,
+   "candidate_counts": {
+    "validly_formed_and_trialled": 11,
+    "trial_passed_and_adopted": 7,
+    "trial_failed": 4,
+    "candidate_refused": 2,
+    "adopted_with_later_L_exact_source_use": 6,
+    "adopted_without_later_L_exact_source_use": 1
+   },
+   "phase3": [
+    {
+     "block": 1,
+     "boundary": "s4303-p3-e04",
+     "attempts": 1,
+     "adoptions": 1,
+     "informative": true,
+     "L_before": {
+      "met_alone": 4,
+      "met_with_help": 0,
+      "missed": 1
+     },
+     "L_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "F_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     }
+    },
+    {
+     "block": 2,
+     "boundary": "s4303-p3-e14",
+     "attempts": 1,
+     "adoptions": 1,
+     "informative": true,
+     "L_before": {
+      "met_alone": 3,
+      "met_with_help": 0,
+      "missed": 2
+     },
+     "L_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "F_after": {
+      "met_alone": 3,
+      "met_with_help": 0,
+      "missed": 2
+     }
+    }
+   ],
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 1,
+    "C phase 4 missing_tool": 4,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 1,
+    "C-full phase 4 missing_tool": 4,
+    "L phase 1 missing_tool": 20,
+    "L phase 2 missing_tool": 20,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "L_episodes": [
+    {
+     "episode": "s4303-p1-e00",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4303-p1-e01",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4303-p1-e02",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4303-p1-e03",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4303-p1-e04",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4303-p1-e05",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 595,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e06",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 597,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e07",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 713,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e08",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 689,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e09",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 703,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e10",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 541,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e11",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 603,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e12",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 602,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e13",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 709,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e14",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 664,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e15",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 760,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e16",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 772,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e17",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 739,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e18",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 587,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p1-e19",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 714,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e00",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 580,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e01",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 701,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e02",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 714,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e03",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 841,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e04",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 538,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e05",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 700,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e06",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 576,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e07",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 743,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e08",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 799,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e09",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 860,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e10",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 639,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e11",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 719,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e12",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 729,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e13",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 723,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e14",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 662,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e15",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 534,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e16",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 555,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e17",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 591,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e18",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 474,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p2-e19",
+     "phase": 2,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 614,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e00",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 980,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e01",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1099,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e02",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 687,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e03",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1224,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e04",
+     "phase": 3,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 3600,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e05",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 594,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e06",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 522,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e07",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 537,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e08",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 767,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e09",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 626,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e10",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 678,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e11",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 735,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e12",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 568,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e13",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 573,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e14",
+     "phase": 3,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 903,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e15",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 2221,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e16",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 623,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e17",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 613,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e18",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 572,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p3-e19",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 836,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e00",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 444,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e01",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 533,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e02",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 606,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e03",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1027,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e04",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 875,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e05",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1144,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e06",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 714,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e07",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 847,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e08",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 675,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e09",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 794,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e10",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 487,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e11",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 602,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e12",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 2688,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e13",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 645,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e14",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 728,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e15",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1759,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e16",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 613,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e17",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 548,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e18",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 451,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p4-e19",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 454,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e00",
+     "phase": 5,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 728,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e01",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 677,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e02",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 689,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e03",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 637,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e04",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 623,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e05",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 667,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e06",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 663,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e07",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 650,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e08",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 749,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e09",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 706,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e10",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 640,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e11",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 664,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e12",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 703,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e13",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 481,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e14",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 761,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e15",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 606,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e16",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 805,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e17",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 744,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e18",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 724,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4303-p5-e19",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 494,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    }
+   ]
+  },
+  "4304": {
+   "L_all": {
+    "met_alone": 66,
+    "met_with_help": 4,
+    "missed": 30
+   },
+   "L_by_phase": {
+    "1": {
+     "met_alone": 10,
+     "met_with_help": 4,
+     "missed": 6
+    },
+    "2": {
+     "met_alone": 20,
+     "met_with_help": 0,
+     "missed": 0
+    },
+    "3": {
+     "met_alone": 19,
+     "met_with_help": 0,
+     "missed": 1
+    },
+    "4": {
+     "met_alone": 17,
+     "met_with_help": 0,
+     "missed": 3
+    },
+    "5": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched": {
+    "L": {
+     "met_alone": 17,
+     "met_with_help": 1,
+     "missed": 2
+    },
+    "C": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    },
+    "C-full": {
+     "met_alone": 0,
+     "met_with_help": 0,
+     "missed": 20
+    }
+   },
+   "matched_cost": {
+    "L": {
+     "positions": 20,
+     "model_calls": 34,
+     "tokens_in": 31668,
+     "tokens_out": 1755,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 3516,
+      "holding_pending": 56,
+      "procedure": 16405,
+      "reasoning_model": 0,
+      "small_model": 28
+     }
+    },
+    "C": {
+     "positions": 20,
+     "model_calls": 620,
+     "tokens_in": 578773,
+     "tokens_out": 24197,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 70332,
+      "holding_pending": 1112,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 556
+     }
+    },
+    "C-full": {
+     "positions": 20,
+     "model_calls": 24067,
+     "tokens_in": 22425338,
+     "tokens_out": 387795,
+     "calls_with_unknown_usage": 0,
+     "heading_seconds": {
+      "holding_none": 0,
+      "holding_pending": 48002,
+      "procedure": 0,
+      "reasoning_model": 0,
+      "small_model": 23998
+     }
+    }
+   },
+   "matched_learning_share": {
+    "model_calls": 0.8877127774186597,
+    "tokens_in": 8281.521735617323,
+    "tokens_out": 58583.988633915105
+   },
+   "L_all_flight_cost_known_subtotal": {
+    "model_calls": 169,
+    "tokens_in": 156307,
+    "tokens_out": 12926
+   },
+   "L_all_flight_unknown_calls": 1,
+   "learning_cost": {
+    "known_subtotal": {
+     "model_calls": 16,
+     "tokens_in": 197329,
+     "tokens_out": 986902
+    },
+    "unknown_calls": {
+     "tokens_in": 1,
+     "tokens_out": 1
+    }
+   },
+   "learning_attempts": [
+    {
+     "boundary": "s4304-p1-e04",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4304-p1-e09",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4304-p3-e09",
+     "results": [
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4304-p4-e19",
+     "results": [
+      [
+       "report",
+       false
+      ],
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4304-p5-e04",
+     "results": [
+      [
+       "report",
+       false
+      ]
+     ]
+    },
+    {
+     "boundary": "s4304-p5-e09",
+     "results": [
+      [
+       "report",
+       true
+      ]
+     ]
+    },
+    {
+     "boundary": "s4304-p5-e14",
+     "results": [
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       false
+      ],
+      [
+       "heading",
+       false
+      ]
+     ]
+    },
+    {
+     "boundary": "s4304-p5-e19",
+     "results": [
+      [
+       "heading",
+       true
+      ]
+     ]
+    }
+   ],
+   "floor_breaches": 1,
+   "candidate_counts": {
+    "validly_formed_and_trialled": 12,
+    "trial_passed_and_adopted": 6,
+    "trial_failed": 6,
+    "candidate_refused": 4,
+    "adopted_with_later_L_exact_source_use": 5,
+    "adopted_without_later_L_exact_source_use": 1
+   },
+   "phase3": [
+    {
+     "block": 1,
+     "boundary": "s4304-p3-e04",
+     "attempts": 0,
+     "adoptions": 0,
+     "informative": false,
+     "L_before": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "L_after": {
+      "met_alone": 4,
+      "met_with_help": 0,
+      "missed": 1
+     },
+     "F_after": {
+      "met_alone": 4,
+      "met_with_help": 0,
+      "missed": 1
+     }
+    },
+    {
+     "block": 2,
+     "boundary": "s4304-p3-e14",
+     "attempts": 0,
+     "adoptions": 0,
+     "informative": false,
+     "L_before": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "L_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     },
+     "F_after": {
+      "met_alone": 5,
+      "met_with_help": 0,
+      "missed": 0
+     }
+    }
+   ],
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 2,
+    "C phase 4 missing_tool": 3,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 2,
+    "C-full phase 4 missing_tool": 3,
+    "L phase 1 missing_tool": 10,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "L_episodes": [
+    {
+     "episode": "s4304-p1-e00",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4304-p1-e01",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4304-p1-e02",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4304-p1-e03",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4304-p1-e04",
+     "phase": 1,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 31,
+     "heading_seconds": {
+      "procedure": 0,
+      "small_model": 28,
+      "reasoning_model": 0,
+      "holding_pending": 56,
+      "holding_none": 3516
+     }
+    },
+    {
+     "episode": "s4304-p1-e05",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 615,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e06",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 767,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e07",
+     "phase": 1,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 2,
+     "heading_seconds": {
+      "procedure": 728,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e08",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 583,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e09",
+     "phase": 1,
+     "label": "met_with_help",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 1,
+     "model_calls": 3,
+     "heading_seconds": {
+      "procedure": 675,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e10",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 598,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e11",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 478,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e12",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 686,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e13",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 591,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e14",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 681,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e15",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 642,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e16",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 720,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e17",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 652,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e18",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 758,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p1-e19",
+     "phase": 1,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 698,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e00",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 606,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e01",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 652,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e02",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 689,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e03",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 731,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e04",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 471,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e05",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 620,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e06",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 551,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e07",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 567,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e08",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 833,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e09",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 539,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e10",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 639,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e11",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 489,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e12",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 743,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e13",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 673,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e14",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 626,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e15",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 828,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e16",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 553,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e17",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 637,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e18",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 736,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p2-e19",
+     "phase": 2,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 617,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e00",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 701,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e01",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1373,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e02",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 900,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e03",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1048,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e04",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1306,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e05",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1048,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e06",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1010,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e07",
+     "phase": 3,
+     "label": "missed",
+     "joined": false,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 3600,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e08",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1049,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e09",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 428,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e10",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 601,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e11",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 611,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e12",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 780,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e13",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 679,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e14",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 625,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e15",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 680,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e16",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 648,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e17",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 559,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e18",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 722,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p3-e19",
+     "phase": 3,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 663,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e00",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1152,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e01",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1061,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e02",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 667,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e03",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 445,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e04",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1047,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e05",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1142,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e06",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1074,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e07",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 603,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e08",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1018,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e09",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 777,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e10",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 514,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e11",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 716,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e12",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 587,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e13",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 598,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e14",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1145,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e15",
+     "phase": 4,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 724,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e16",
+     "phase": 4,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 1130,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e17",
+     "phase": 4,
+     "label": "missed",
+     "joined": true,
+     "report_correct": false,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 746,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e18",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 627,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p4-e19",
+     "phase": 4,
+     "label": "met_alone",
+     "joined": true,
+     "report_correct": true,
+     "help_requests": 0,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 935,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e00",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 658,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e01",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 715,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e02",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 683,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e03",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 738,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e04",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 779,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e05",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 768,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e06",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 653,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e07",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 755,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e08",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 702,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e09",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 494,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e10",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 662,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e11",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 575,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e12",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 809,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e13",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 558,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e14",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 690,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e15",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 536,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e16",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 741,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e17",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 480,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e18",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 624,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    },
+    {
+     "episode": "s4304-p5-e19",
+     "phase": 5,
+     "label": "missed",
+     "joined": false,
+     "report_correct": false,
+     "help_requests": 1,
+     "model_calls": 0,
+     "heading_seconds": {
+      "procedure": 746,
+      "small_model": 0,
+      "reasoning_model": 0,
+      "holding_pending": 0,
+      "holding_none": 0
+     }
+    }
+   ]
+  }
+ },
+ "first_cycle": {
+  "summary": {
+   "boundary": "s4301-p1-e04",
+   "attempt": 1,
+   "call": 1,
+   "candidate": "2f15f70ea4fdb90ee7aeac620dad5ce7716e85acbfbe6f90c59ca5e22e3547cc",
+   "source_sha256": "a3707c6c9567920d5870d7e6133b054e187c286c24ec6dab2e2385e6df3f0c06",
+   "decision": "heading",
+   "recent_component_trials_passed": 5,
+   "adopted": true,
+   "first_later_episode": "s4301-p1-e05",
+   "later_goal_met": true,
+   "later_help_requests": 1,
+   "all_later_L_decisions": 19901,
+   "later_L_episode_count": 20,
+   "qualification_does_not_establish_unaided_whole_goal": true
+  },
+  "attempt": {
+   "boundary_episode": "s4301-p1-e04",
+   "model_calls": 1,
+   "tokens_in": 9853,
+   "tokens_out": 58113
+  },
+  "recent_trials": [
+   {
+    "episode": "s4301-p1-e00",
+    "component_pass": true,
+    "full_goal": false,
+    "help": 0,
+    "settled": true,
+    "regression": false,
+    "component_used_seconds": 1130,
+    "component_reason": null
+   },
+   {
+    "episode": "s4301-p1-e01",
+    "component_pass": true,
+    "full_goal": false,
+    "help": 0,
+    "settled": true,
+    "regression": false,
+    "component_used_seconds": 689,
+    "component_reason": null
+   },
+   {
+    "episode": "s4301-p1-e02",
+    "component_pass": true,
+    "full_goal": false,
+    "help": 0,
+    "settled": true,
+    "regression": false,
+    "component_used_seconds": 729,
+    "component_reason": null
+   },
+   {
+    "episode": "s4301-p1-e03",
+    "component_pass": true,
+    "full_goal": false,
+    "help": 0,
+    "settled": true,
+    "regression": false,
+    "component_used_seconds": 1100,
+    "component_reason": null
+   },
+   {
+    "episode": "s4301-p1-e04",
+    "component_pass": true,
+    "full_goal": false,
+    "help": 0,
+    "settled": true,
+    "regression": false,
+    "component_used_seconds": 1159,
+    "component_reason": null
+   }
+  ],
+  "later_episodes_decisions": {
+   "s4301-p1-e05": 751,
+   "s4301-p1-e06": 1099,
+   "s4301-p1-e07": 619,
+   "s4301-p1-e08": 634,
+   "s4301-p1-e09": 681,
+   "s4301-p1-e10": 1207,
+   "s4301-p1-e11": 962,
+   "s4301-p1-e12": 1591,
+   "s4301-p1-e13": 629,
+   "s4301-p1-e14": 645,
+   "s4301-p1-e15": 1317,
+   "s4301-p1-e16": 740,
+   "s4301-p1-e17": 849,
+   "s4301-p1-e18": 986,
+   "s4301-p1-e19": 667,
+   "s4301-p2-e00": 936,
+   "s4301-p2-e01": 553,
+   "s4301-p2-e02": 3600,
+   "s4301-p2-e03": 737,
+   "s4301-p2-e04": 698
+  }
+ },
+ "totals": {
+  "L_all": {
+   "met_alone": 174,
+   "met_with_help": 102,
+   "missed": 124
+  },
+  "matched": {
+   "L": {
+    "met_alone": 43,
+    "met_with_help": 25,
+    "missed": 12
+   },
+   "C": {
+    "met_alone": 0,
+    "met_with_help": 0,
+    "missed": 80
+   },
+   "C-full": {
+    "met_alone": 0,
+    "met_with_help": 0,
+    "missed": 80
+   }
+  },
+  "candidate_counts": {
+   "validly_formed_and_trialled": 52,
+   "trial_passed_and_adopted": 32,
+   "trial_failed": 20,
+   "candidate_refused": 11,
+   "adopted_with_later_L_exact_source_use": 28,
+   "adopted_without_later_L_exact_source_use": 4
+  },
+  "gpu_hours": 185.997222
+ }
+}

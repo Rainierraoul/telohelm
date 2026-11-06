@@ -1,0 +1,4426 @@
+{
+ "across": {
+  "RQ1 C flight model calls on matched positions": {
+   "per_stream": [
+    620,
+    620,
+    620,
+    620
+   ],
+   "range": [
+    620,
+    620
+   ]
+  },
+  "RQ1 C goals met alone on matched positions": {
+   "per_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "range": [
+    0,
+    0
+   ]
+  },
+  "RQ1 C-full flight model calls on matched positions": {
+   "per_stream": [
+    24066,
+    24069,
+    24069,
+    24067
+   ],
+   "range": [
+    24066,
+    24069
+   ]
+  },
+  "RQ1 C-full goals met alone on matched positions": {
+   "per_stream": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "range": [
+    0,
+    0
+   ]
+  },
+  "RQ1 L flight model calls on matched positions": {
+   "per_stream": [
+    58,
+    83,
+    86,
+    34
+   ],
+   "range": [
+    34,
+    86
+   ]
+  },
+  "RQ1 L goals met alone on matched positions": {
+   "per_stream": [
+    7,
+    10,
+    9,
+    17
+   ],
+   "range": [
+    7,
+    17
+   ]
+  },
+  "RQ2 block 1 F_after goals met alone": {
+   "per_stream": [
+    4,
+    5,
+    5,
+    4
+   ],
+   "range": [
+    4,
+    5
+   ]
+  },
+  "RQ2 block 1 L_after goals met alone": {
+   "per_stream": [
+    4,
+    5,
+    5,
+    4
+   ],
+   "range": [
+    4,
+    5
+   ]
+  },
+  "RQ2 block 1 informative streams": {
+   "per_stream": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "range": [
+    0,
+    1
+   ]
+  },
+  "RQ2 block 2 F_after goals met alone": {
+   "per_stream": [
+    2,
+    0,
+    3,
+    5
+   ],
+   "range": [
+    0,
+    5
+   ]
+  },
+  "RQ2 block 2 L_after goals met alone": {
+   "per_stream": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "range": [
+    5,
+    5
+   ]
+  },
+  "RQ2 block 2 informative streams": {
+   "per_stream": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "range": [
+    0,
+    1
+   ]
+  }
+ },
+ "analysed_streams": [
+  4301,
+  4302,
+  4303,
+  4304
+ ],
+ "declared_streams": [
+  4301,
+  4302,
+  4303,
+  4304
+ ],
+ "dispositions": {
+  "4301": {
+   "status": "ran"
+  },
+  "4302": {
+   "status": "ran"
+  },
+  "4303": {
+   "status": "ran"
+  },
+  "4304": {
+   "status": "ran"
+  }
+ },
+ "host_receipts": {
+  "/Users/s.vajda/Development/DCARR-RUNTIME/cluster-records/scored-4301-20261029/terminal/originals/study-4339375/host/host-receipts.json": "54781e604dde5554bb3d035577bbf314da5d4364870bf0ed12be96fb48f30b4e",
+  "/Users/s.vajda/Development/DCARR-RUNTIME/cluster-records/scored-4302-20261030/terminal/originals/study-4403902/host/host-receipts.json": "35b118148f9dff1ea11f4864720697210008c37a402b8148e2e925d0ae9f321d",
+  "/Users/s.vajda/Development/DCARR-RUNTIME/cluster-records/scored-4303-20261101/terminal/originals/study-4499845/host/host-receipts.json": "6af323925be2dffd117aa9d22ea764d9fb4fbb43fd4e53bcdd863a324b6e944e",
+  "/Users/s.vajda/Development/DCARR-RUNTIME/cluster-records/scored-4304-20261102/terminal/originals/study-4503929/host/host-receipts.json": "1cecdd7a4d7f08d0cc5ee201d33a9be7fe7f48b7f724c7e1dde89dd855d28a09"
+ },
+ "per_stream": [
+  {
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 1,
+    "C phase 4 missing_tool": 4,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 1,
+    "C-full phase 4 missing_tool": 4,
+    "L phase 1 missing_tool": 20,
+    "L phase 2 missing_tool": 20,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "learning": {
+    "attempts": [
+     {
+      "attempt": 1,
+      "boundary": "s4301-p1-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 2,
+      "boundary": "s4301-p2-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 3,
+      "boundary": "s4301-p2-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 4,
+      "boundary": "s4301-p3-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       }
+      ]
+     },
+     {
+      "attempt": 5,
+      "boundary": "s4301-p3-e09",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 6,
+      "boundary": "s4301-p3-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 7,
+      "boundary": "s4301-p4-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 8,
+      "boundary": "s4301-p4-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 9,
+      "boundary": "s4301-p5-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 10,
+      "boundary": "s4301-p5-e09",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 11,
+      "boundary": "s4301-p5-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 12,
+      "boundary": "s4301-p5-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     }
+    ],
+    "build_cost_by_boundary": {
+     "s4301-p1-e04": {
+      "model_calls": 1,
+      "tokens_in": 9853,
+      "tokens_out": 58113
+     },
+     "s4301-p2-e04": {
+      "model_calls": 1,
+      "tokens_in": 7601,
+      "tokens_out": 61253
+     },
+     "s4301-p2-e19": {
+      "model_calls": 1,
+      "tokens_in": 5690,
+      "tokens_out": 61267
+     },
+     "s4301-p3-e04": {
+      "model_calls": 3,
+      "tokens_in": 27006,
+      "tokens_out": 180074
+     },
+     "s4301-p3-e09": {
+      "model_calls": 2,
+      "tokens_in": 18178,
+      "tokens_out": 125329
+     },
+     "s4301-p3-e14": {
+      "model_calls": 2,
+      "tokens_in": 24302,
+      "tokens_out": 87593
+     },
+     "s4301-p4-e04": {
+      "model_calls": 1,
+      "tokens_in": 8488,
+      "tokens_out": 39852
+     },
+     "s4301-p4-e19": {
+      "model_calls": 1,
+      "tokens_in": 8714,
+      "tokens_out": 59042
+     },
+     "s4301-p5-e04": {
+      "model_calls": 2,
+      "tokens_in": 30750,
+      "tokens_out": 138772
+     },
+     "s4301-p5-e09": {
+      "model_calls": 3,
+      "tokens_in": 48333,
+      "tokens_out": 191808
+     },
+     "s4301-p5-e14": {
+      "model_calls": 1,
+      "tokens_in": 15964,
+      "tokens_out": 55978
+     },
+     "s4301-p5-e19": {
+      "model_calls": 3,
+      "tokens_in": 47466,
+      "tokens_out": 180867
+     }
+    },
+    "build_cost_total": {
+     "model_calls": 21,
+     "tokens_in": 252345,
+     "tokens_out": 1239948
+    },
+    "build_known_subtotal": {
+     "model_calls": 21,
+     "tokens_in": 252345,
+     "tokens_out": 1239948
+    },
+    "build_unknown_calls": {
+     "tokens_in": 0,
+     "tokens_out": 0
+    },
+    "floor_breaches": 2,
+    "journal": {
+     "cut_last_line": false,
+     "sessions": 1,
+     "source": "learning-events.jsonl"
+    },
+    "open_attempts": 0
+   },
+   "mode": "scored",
+   "rq1": {
+    "C": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 140064,
+        "tokens_out": 5952
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 140064,
+        "tokens_out": 5952
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 146600,
+        "tokens_out": 7171
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 146600,
+        "tokens_out": 7171
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 144270,
+        "tokens_out": 7754
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 144270,
+        "tokens_out": 7754
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 147484,
+        "tokens_out": 5965
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 147484,
+        "tokens_out": 5965
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17595,
+        "holding_pending": 270,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 135
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 620,
+       "tokens_in": 578418,
+       "tokens_out": 26842
+      },
+      "known_subtotal": {
+       "model_calls": 620,
+       "tokens_in": 578418,
+       "tokens_out": 26842
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 70335,
+       "holding_pending": 1110,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 555
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "C-full": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6014,
+        "tokens_in": 5336193,
+        "tokens_out": 72548
+       },
+       "known_subtotal": {
+        "model_calls": 6014,
+        "tokens_in": 5336193,
+        "tokens_out": 72548
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5605594,
+        "tokens_out": 78119
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5605594,
+        "tokens_out": 78119
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5585648,
+        "tokens_out": 84096
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5585648,
+        "tokens_out": 84096
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6022,
+        "tokens_in": 5584148,
+        "tokens_out": 73921
+       },
+       "known_subtotal": {
+        "model_calls": 6022,
+        "tokens_in": 5584148,
+        "tokens_out": 73921
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12002,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 5998
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 24066,
+       "tokens_in": 22111583,
+       "tokens_out": 308684
+      },
+      "known_subtotal": {
+       "model_calls": 24066,
+       "tokens_in": 22111583,
+       "tokens_out": 308684
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 48002,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 23998
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 43,
+        "tokens_in": 42720,
+        "tokens_out": 4153
+       },
+       "known_subtotal": {
+        "model_calls": 43,
+        "tokens_in": 42720,
+        "tokens_out": 4153
+       },
+       "model_calls_per_goal_met": 10.75,
+       "outcomes": {
+        "met_with_help": 4,
+        "missed": 1
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 3516,
+        "holding_pending": 56,
+        "procedure": 3728,
+        "reasoning_model": 0,
+        "small_model": 28
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 15,
+        "tokens_in": 18775,
+        "tokens_out": 4914
+       },
+       "known_subtotal": {
+        "model_calls": 15,
+        "tokens_in": 18775,
+        "tokens_out": 4914
+       },
+       "model_calls_per_goal_met": 3.0,
+       "outcomes": {
+        "met_with_help": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 3531,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 3,
+        "missed": 2
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 6021,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 4,
+        "missed": 1
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 3453,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "d1_learning_share_on_matched": {
+      "model_calls": 1.7076941211830046,
+      "tokens_in": 15510.438579418995,
+      "tokens_out": 97334.89125266483
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 58,
+       "tokens_in": 61495,
+       "tokens_out": 9067
+      },
+      "known_subtotal": {
+       "model_calls": 58,
+       "tokens_in": 61495,
+       "tokens_out": 9067
+      },
+      "model_calls_per_goal_met": 3.625,
+      "outcomes": {
+       "met_alone": 7,
+       "met_with_help": 9,
+       "missed": 4
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 3516,
+       "holding_pending": 56,
+       "procedure": 16733,
+       "reasoning_model": 0,
+       "small_model": 28
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L_all_positions": {
+     "1": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 200,
+       "tokens_in": 195371,
+       "tokens_out": 28718
+      },
+      "known_subtotal": {
+       "model_calls": 200,
+       "tokens_in": 195371,
+       "tokens_out": 28718
+      },
+      "model_calls_per_goal_met": 13.333333333333334,
+      "outcomes": {
+       "met_with_help": 15,
+       "missed": 5
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 17580,
+       "holding_pending": 280,
+       "procedure": 13377,
+       "reasoning_model": 0,
+       "small_model": 140
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "2": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 60,
+       "tokens_in": 75225,
+       "tokens_out": 29608
+      },
+      "known_subtotal": {
+       "model_calls": 60,
+       "tokens_in": 75225,
+       "tokens_out": 29608
+      },
+      "model_calls_per_goal_met": 3.1578947368421053,
+      "outcomes": {
+       "met_with_help": 19,
+       "missed": 1
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 16780,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "3": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 12,
+       "missed": 8
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 18652,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "4": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 18,
+       "missed": 2
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 15482,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "5": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 13457,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    }
+   },
+   "rq2": [
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 4,
+       "missed": 1
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 6087,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 4,
+       "missed": 1
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 6087,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 3,
+       "missed": 2
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 6365,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 0,
+     "attempts": 1,
+     "boundary": "s4301-p3-e04",
+     "informative": true
+    },
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 2,
+       "missed": 3
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3216,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3217,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 2983,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 1,
+     "attempts": 1,
+     "boundary": "s4301-p3-e14",
+     "informative": true
+    }
+   ],
+   "statuses": {
+    "C": {
+     "complete": 20
+    },
+    "C-full": {
+     "complete": 20
+    },
+    "F": {
+     "complete": 10
+    },
+    "L": {
+     "complete": 100
+    }
+   },
+   "stream": 4301
+  },
+  {
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 2,
+    "C phase 4 missing_tool": 3,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 2,
+    "C-full phase 4 missing_tool": 3,
+    "L phase 1 missing_tool": 20,
+    "L phase 2 missing_tool": 15,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "learning": {
+    "attempts": [
+     {
+      "attempt": 1,
+      "boundary": "s4302-p1-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 2,
+      "boundary": "s4302-p2-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 3,
+      "boundary": "s4302-p2-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 4,
+      "boundary": "s4302-p3-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 5,
+      "boundary": "s4302-p5-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 6,
+      "boundary": "s4302-p5-e09",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 7,
+      "boundary": "s4302-p5-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 8,
+      "boundary": "s4302-p5-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     }
+    ],
+    "build_cost_by_boundary": {
+     "s4302-p1-e04": {
+      "model_calls": 1,
+      "tokens_in": 9865,
+      "tokens_out": 39687
+     },
+     "s4302-p2-e14": {
+      "model_calls": 1,
+      "tokens_in": 6612,
+      "tokens_out": 46400
+     },
+     "s4302-p2-e19": {
+      "model_calls": 2,
+      "tokens_in": 12998,
+      "tokens_out": 142954
+     },
+     "s4302-p3-e14": {
+      "model_calls": 3,
+      "tokens_in": 34086,
+      "tokens_out": 138248
+     },
+     "s4302-p5-e04": {
+      "model_calls": 1,
+      "tokens_in": 15414,
+      "tokens_out": 55554
+     },
+     "s4302-p5-e09": {
+      "model_calls": 1,
+      "tokens_in": 16103,
+      "tokens_out": 56283
+     },
+     "s4302-p5-e14": {
+      "model_calls": 3,
+      "tokens_in": 48414,
+      "tokens_out": 197496
+     },
+     "s4302-p5-e19": {
+      "model_calls": 1,
+      "tokens_in": 15362,
+      "tokens_out": 57513
+     }
+    },
+    "build_cost_total": {
+     "model_calls": 13,
+     "tokens_in": 158854,
+     "tokens_out": 734135
+    },
+    "build_known_subtotal": {
+     "model_calls": 13,
+     "tokens_in": 158854,
+     "tokens_out": 734135
+    },
+    "build_unknown_calls": {
+     "tokens_in": 0,
+     "tokens_out": 0
+    },
+    "floor_breaches": 1,
+    "journal": {
+     "cut_last_line": false,
+     "sessions": 1,
+     "source": "learning-events.jsonl"
+    },
+    "open_attempts": 0
+   },
+   "mode": "scored",
+   "rq1": {
+    "C": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 140183,
+        "tokens_out": 6735
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 140183,
+        "tokens_out": 6735
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 146495,
+        "tokens_out": 24696
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 146495,
+        "tokens_out": 24696
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 144562,
+        "tokens_out": 5424
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 144562,
+        "tokens_out": 5424
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 146167,
+        "tokens_out": 14435
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 146167,
+        "tokens_out": 14435
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17595,
+        "holding_pending": 270,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 135
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 620,
+       "tokens_in": 577407,
+       "tokens_out": 51290
+      },
+      "known_subtotal": {
+       "model_calls": 620,
+       "tokens_in": 577407,
+       "tokens_out": 51290
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 70335,
+       "holding_pending": 1110,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 555
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "C-full": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5343185,
+        "tokens_out": 71378
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5343185,
+        "tokens_out": 71378
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5628823,
+        "tokens_out": 97061
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5628823,
+        "tokens_out": 97061
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5602916,
+        "tokens_out": 77563
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5602916,
+        "tokens_out": 77563
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6024,
+        "tokens_in": 5604913,
+        "tokens_out": 78955
+       },
+       "known_subtotal": {
+        "model_calls": 6024,
+        "tokens_in": 5604913,
+        "tokens_out": 78955
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12004,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 5996
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 24069,
+       "tokens_in": 22179837,
+       "tokens_out": 324957
+      },
+      "known_subtotal": {
+       "model_calls": 24069,
+       "tokens_in": 22179837,
+       "tokens_out": 324957
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 48004,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 23996
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 71,
+        "tokens_in": 66971,
+        "tokens_out": 5774
+       },
+       "known_subtotal": {
+        "model_calls": 71,
+        "tokens_in": 66971,
+        "tokens_out": 5774
+       },
+       "model_calls_per_goal_met": 23.666666666666668,
+       "outcomes": {
+        "met_with_help": 3,
+        "missed": 2
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 7032,
+        "holding_pending": 112,
+        "procedure": 1931,
+        "reasoning_model": 0,
+        "small_model": 56
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 12,
+        "tokens_in": 15066,
+        "tokens_out": 4684
+       },
+       "known_subtotal": {
+        "model_calls": 12,
+        "tokens_in": 15066,
+        "tokens_out": 4684
+       },
+       "model_calls_per_goal_met": 2.4,
+       "outcomes": {
+        "met_alone": 1,
+        "met_with_help": 4
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 3103,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 4,
+        "missed": 1
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 5306,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 4345,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "d1_learning_share_on_matched": {
+      "model_calls": 1.1212782673491868,
+      "tokens_in": 9841.770957526081,
+      "tokens_out": 59688.614126385015
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 83,
+       "tokens_in": 82037,
+       "tokens_out": 10458
+      },
+      "known_subtotal": {
+       "model_calls": 83,
+       "tokens_in": 82037,
+       "tokens_out": 10458
+      },
+      "model_calls_per_goal_met": 4.882352941176471,
+      "outcomes": {
+       "met_alone": 10,
+       "met_with_help": 7,
+       "missed": 3
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 7032,
+       "holding_pending": 112,
+       "procedure": 14685,
+       "reasoning_model": 0,
+       "small_model": 56
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L_all_positions": {
+     "1": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 200,
+       "tokens_in": 195397,
+       "tokens_out": 23211
+      },
+      "known_subtotal": {
+       "model_calls": 200,
+       "tokens_in": 195397,
+       "tokens_out": 23211
+      },
+      "model_calls_per_goal_met": 13.333333333333334,
+      "outcomes": {
+       "met_with_help": 15,
+       "missed": 5
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 17580,
+       "holding_pending": 280,
+       "procedure": 10063,
+       "reasoning_model": 0,
+       "small_model": 140
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "2": {
+      "calls_with_unknown_usage": 1,
+      "cost": {
+       "model_calls": 44,
+       "tokens_in": null,
+       "tokens_out": null
+      },
+      "known_subtotal": {
+       "model_calls": 44,
+       "tokens_in": 53722,
+       "tokens_out": 16662
+      },
+      "model_calls_per_goal_met": 2.3157894736842106,
+      "outcomes": {
+       "met_alone": 5,
+       "met_with_help": 14,
+       "missed": 1
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 13045,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 1,
+       "tokens_out": 1
+      }
+     },
+     "3": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 16,
+       "missed": 4
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 18831,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "4": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 16229,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "5": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 12919,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    }
+   },
+   "rq2": [
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 6573,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 6573,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 5249,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 0,
+     "attempts": 0,
+     "boundary": "s4302-p3-e04",
+     "informative": false
+    },
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3332,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3332,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 1,
+       "missed": 4
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3677,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 1,
+     "attempts": 1,
+     "boundary": "s4302-p3-e14",
+     "informative": true
+    }
+   ],
+   "statuses": {
+    "C": {
+     "complete": 20
+    },
+    "C-full": {
+     "complete": 20
+    },
+    "F": {
+     "complete": 10
+    },
+    "L": {
+     "complete": 100
+    }
+   },
+   "stream": 4302
+  },
+  {
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 1,
+    "C phase 4 missing_tool": 4,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 1,
+    "C-full phase 4 missing_tool": 4,
+    "L phase 1 missing_tool": 20,
+    "L phase 2 missing_tool": 20,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "learning": {
+    "attempts": [
+     {
+      "attempt": 1,
+      "boundary": "s4303-p1-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 2,
+      "boundary": "s4303-p2-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 3,
+      "boundary": "s4303-p3-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 4,
+      "boundary": "s4303-p3-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 5,
+      "boundary": "s4303-p5-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 6,
+      "boundary": "s4303-p5-e09",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 7,
+      "boundary": "s4303-p5-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       }
+      ]
+     },
+     {
+      "attempt": 8,
+      "boundary": "s4303-p5-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     }
+    ],
+    "build_cost_by_boundary": {
+     "s4303-p1-e04": {
+      "model_calls": 1,
+      "tokens_in": 9872,
+      "tokens_out": 57823
+     },
+     "s4303-p2-e19": {
+      "model_calls": 1,
+      "tokens_in": 6560,
+      "tokens_out": 65521
+     },
+     "s4303-p3-e04": {
+      "model_calls": 2,
+      "tokens_in": 22856,
+      "tokens_out": 114183
+     },
+     "s4303-p3-e14": {
+      "model_calls": 1,
+      "tokens_in": 11423,
+      "tokens_out": 63347
+     },
+     "s4303-p5-e04": {
+      "model_calls": 1,
+      "tokens_in": 15463,
+      "tokens_out": 46986
+     },
+     "s4303-p5-e09": {
+      "model_calls": 2,
+      "tokens_in": 31796,
+      "tokens_out": 120994
+     },
+     "s4303-p5-e14": {
+      "model_calls": 3,
+      "tokens_in": 47709,
+      "tokens_out": 189329
+     },
+     "s4303-p5-e19": {
+      "model_calls": 2,
+      "tokens_in": 31854,
+      "tokens_out": 133571
+     }
+    },
+    "build_cost_total": {
+     "model_calls": 13,
+     "tokens_in": 177533,
+     "tokens_out": 791754
+    },
+    "build_known_subtotal": {
+     "model_calls": 13,
+     "tokens_in": 177533,
+     "tokens_out": 791754
+    },
+    "build_unknown_calls": {
+     "tokens_in": 0,
+     "tokens_out": 0
+    },
+    "floor_breaches": 1,
+    "journal": {
+     "cut_last_line": false,
+     "sessions": 1,
+     "source": "learning-events.jsonl"
+    },
+    "open_attempts": 0
+   },
+   "mode": "scored",
+   "rq1": {
+    "C": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 140473,
+        "tokens_out": 6031
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 140473,
+        "tokens_out": 6031
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 146603,
+        "tokens_out": 5292
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 146603,
+        "tokens_out": 5292
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 144674,
+        "tokens_out": 6106
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 144674,
+        "tokens_out": 6106
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 147584,
+        "tokens_out": 12511
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 147584,
+        "tokens_out": 12511
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17595,
+        "holding_pending": 270,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 135
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 620,
+       "tokens_in": 579334,
+       "tokens_out": 29940
+      },
+      "known_subtotal": {
+       "model_calls": 620,
+       "tokens_in": 579334,
+       "tokens_out": 29940
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 70335,
+       "holding_pending": 1110,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 555
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "C-full": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5387890,
+        "tokens_out": 83746
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5387890,
+        "tokens_out": 83746
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5621149,
+        "tokens_out": 108729
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5621149,
+        "tokens_out": 108729
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5597091,
+        "tokens_out": 84933
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5597091,
+        "tokens_out": 84933
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6024,
+        "tokens_in": 5661958,
+        "tokens_out": 91857
+       },
+       "known_subtotal": {
+        "model_calls": 6024,
+        "tokens_in": 5661958,
+        "tokens_out": 91857
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12004,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 5996
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 24069,
+       "tokens_in": 22268088,
+       "tokens_out": 369265
+      },
+      "known_subtotal": {
+       "model_calls": 24069,
+       "tokens_in": 22268088,
+       "tokens_out": 369265
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 48004,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 23996
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 71,
+        "tokens_in": 67322,
+        "tokens_out": 4638
+       },
+       "known_subtotal": {
+        "model_calls": 71,
+        "tokens_in": 67322,
+        "tokens_out": 4638
+       },
+       "model_calls_per_goal_met": 23.666666666666668,
+       "outcomes": {
+        "met_with_help": 3,
+        "missed": 2
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 7032,
+        "holding_pending": 112,
+        "procedure": 1785,
+        "reasoning_model": 0,
+        "small_model": 56
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 15,
+        "tokens_in": 18825,
+        "tokens_out": 14053
+       },
+       "known_subtotal": {
+        "model_calls": 15,
+        "tokens_in": 18825,
+        "tokens_out": 14053
+       },
+       "model_calls_per_goal_met": 3.0,
+       "outcomes": {
+        "met_with_help": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 3408,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 4,
+        "missed": 1
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 3904,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 4608,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "d1_learning_share_on_matched": {
+      "model_calls": 0.7675834945524895,
+      "tokens_in": 7681.509214947562,
+      "tokens_out": 46157.46935775379
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 86,
+       "tokens_in": 86147,
+       "tokens_out": 18691
+      },
+      "known_subtotal": {
+       "model_calls": 86,
+       "tokens_in": 86147,
+       "tokens_out": 18691
+      },
+      "model_calls_per_goal_met": 5.0588235294117645,
+      "outcomes": {
+       "met_alone": 9,
+       "met_with_help": 8,
+       "missed": 3
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 7032,
+       "holding_pending": 112,
+       "procedure": 13705,
+       "reasoning_model": 0,
+       "small_model": 56
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L_all_positions": {
+     "1": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 200,
+       "tokens_in": 195528,
+       "tokens_out": 40981
+      },
+      "known_subtotal": {
+       "model_calls": 200,
+       "tokens_in": 195528,
+       "tokens_out": 40981
+      },
+      "model_calls_per_goal_met": 13.333333333333334,
+      "outcomes": {
+       "met_with_help": 15,
+       "missed": 5
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 17580,
+       "holding_pending": 280,
+       "procedure": 9988,
+       "reasoning_model": 0,
+       "small_model": 140
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "2": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 60,
+       "tokens_in": 75191,
+       "tokens_out": 26230
+      },
+      "known_subtotal": {
+       "model_calls": 60,
+       "tokens_in": 75191,
+       "tokens_out": 26230
+      },
+      "model_calls_per_goal_met": 3.0,
+      "outcomes": {
+       "met_with_help": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 13292,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "3": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 17,
+       "missed": 3
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 18958,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "4": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 16634,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "5": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 13411,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    }
+   },
+   "rq2": [
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3938,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3046,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 4,
+       "missed": 1
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 7590,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 1,
+     "attempts": 1,
+     "boundary": "s4303-p3-e04",
+     "informative": true
+    },
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 3,
+       "missed": 2
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3031,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 4865,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 3,
+       "missed": 2
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3457,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 1,
+     "attempts": 1,
+     "boundary": "s4303-p3-e14",
+     "informative": true
+    }
+   ],
+   "statuses": {
+    "C": {
+     "complete": 20
+    },
+    "C-full": {
+     "complete": 20
+    },
+    "F": {
+     "complete": 10
+    },
+    "L": {
+     "complete": 100
+    }
+   },
+   "stream": 4303
+  },
+  {
+   "help": {
+    "C phase 1 missing_tool": 5,
+    "C phase 2 missing_tool": 5,
+    "C phase 3 missing_or_stale_evidence": 2,
+    "C phase 3 missing_tool": 3,
+    "C phase 4 missing_or_stale_evidence": 2,
+    "C phase 4 missing_tool": 3,
+    "C-full phase 1 missing_tool": 5,
+    "C-full phase 2 missing_tool": 5,
+    "C-full phase 3 missing_or_stale_evidence": 2,
+    "C-full phase 3 missing_tool": 3,
+    "C-full phase 4 missing_or_stale_evidence": 2,
+    "C-full phase 4 missing_tool": 3,
+    "L phase 1 missing_tool": 10,
+    "L phase 5 missing_or_stale_evidence": 20
+   },
+   "learning": {
+    "attempts": [
+     {
+      "attempt": 1,
+      "boundary": "s4304-p1-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 2,
+      "boundary": "s4304-p1-e09",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 3,
+      "boundary": "s4304-p3-e09",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 4,
+      "boundary": "s4304-p4-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 5,
+      "boundary": "s4304-p5-e04",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": false
+       }
+      ]
+     },
+     {
+      "attempt": 6,
+      "boundary": "s4304-p5-e09",
+      "open": false,
+      "results": [
+       {
+        "decision": "report",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     },
+     {
+      "attempt": 7,
+      "boundary": "s4304-p5-e14",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       },
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": false
+       }
+      ]
+     },
+     {
+      "attempt": 8,
+      "boundary": "s4304-p5-e19",
+      "open": false,
+      "results": [
+       {
+        "decision": "heading",
+        "kind": "procedure",
+        "passed": true
+       }
+      ]
+     }
+    ],
+    "build_cost_by_boundary": {
+     "s4304-p1-e04": {
+      "model_calls": 1,
+      "tokens_in": 9861,
+      "tokens_out": 42166
+     },
+     "s4304-p1-e09": {
+      "model_calls": 1,
+      "tokens_in": 7108,
+      "tokens_out": 68632
+     },
+     "s4304-p3-e09": {
+      "model_calls": 3,
+      "tokens_in": 30237,
+      "tokens_out": 226119
+     },
+     "s4304-p4-e19": {
+      "model_calls": 2,
+      "tokens_in": 22372,
+      "tokens_out": 147536
+     },
+     "s4304-p5-e04": {
+      "model_calls": 3,
+      "tokens_in": null,
+      "tokens_out": null
+     },
+     "s4304-p5-e09": {
+      "model_calls": 2,
+      "tokens_in": 32390,
+      "tokens_out": 115981
+     },
+     "s4304-p5-e14": {
+      "model_calls": 3,
+      "tokens_in": 47331,
+      "tokens_out": 184702
+     },
+     "s4304-p5-e19": {
+      "model_calls": 1,
+      "tokens_in": 15776,
+      "tokens_out": 69165
+     }
+    },
+    "build_cost_total": {
+     "model_calls": 16,
+     "tokens_in": null,
+     "tokens_out": null
+    },
+    "build_known_subtotal": {
+     "model_calls": 16,
+     "tokens_in": 197329,
+     "tokens_out": 986902
+    },
+    "build_unknown_calls": {
+     "tokens_in": 1,
+     "tokens_out": 1
+    },
+    "floor_breaches": 1,
+    "journal": {
+     "cut_last_line": false,
+     "sessions": 1,
+     "source": "learning-events.jsonl"
+    },
+    "open_attempts": 0
+   },
+   "mode": "scored",
+   "rq1": {
+    "C": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 140029,
+        "tokens_out": 5305
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 140029,
+        "tokens_out": 5305
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 145877,
+        "tokens_out": 5194
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 145877,
+        "tokens_out": 5194
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17580,
+        "holding_pending": 280,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 140
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 144244,
+        "tokens_out": 5440
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 144244,
+        "tokens_out": 5440
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17577,
+        "holding_pending": 282,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 141
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 155,
+        "tokens_in": 148623,
+        "tokens_out": 8258
+       },
+       "known_subtotal": {
+        "model_calls": 155,
+        "tokens_in": 148623,
+        "tokens_out": 8258
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 17595,
+        "holding_pending": 270,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 135
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 620,
+       "tokens_in": 578773,
+       "tokens_out": 24197
+      },
+      "known_subtotal": {
+       "model_calls": 620,
+       "tokens_in": 578773,
+       "tokens_out": 24197
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 70332,
+       "holding_pending": 1112,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 556
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "C-full": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5447658,
+        "tokens_out": 94175
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5447658,
+        "tokens_out": 94175
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5658553,
+        "tokens_out": 96282
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5658553,
+        "tokens_out": 96282
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6015,
+        "tokens_in": 5616512,
+        "tokens_out": 92213
+       },
+       "known_subtotal": {
+        "model_calls": 6015,
+        "tokens_in": 5616512,
+        "tokens_out": 92213
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12000,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 6000
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 6022,
+        "tokens_in": 5702615,
+        "tokens_out": 105125
+       },
+       "known_subtotal": {
+        "model_calls": 6022,
+        "tokens_in": 5702615,
+        "tokens_out": 105125
+       },
+       "model_calls_per_goal_met": null,
+       "outcomes": {
+        "missed": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 12002,
+        "procedure": 0,
+        "reasoning_model": 0,
+        "small_model": 5998
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 24067,
+       "tokens_in": 22425338,
+       "tokens_out": 387795
+      },
+      "known_subtotal": {
+       "model_calls": 24067,
+       "tokens_in": 22425338,
+       "tokens_out": 387795
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 48002,
+       "procedure": 0,
+       "reasoning_model": 0,
+       "small_model": 23998
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L": {
+     "by_phase": {
+      "1": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 34,
+        "tokens_in": 31668,
+        "tokens_out": 1755
+       },
+       "known_subtotal": {
+        "model_calls": 34,
+        "tokens_in": 31668,
+        "tokens_out": 1755
+       },
+       "model_calls_per_goal_met": 8.5,
+       "outcomes": {
+        "met_alone": 3,
+        "met_with_help": 1,
+        "missed": 1
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 3516,
+        "holding_pending": 56,
+        "procedure": 2481,
+        "reasoning_model": 0,
+        "small_model": 28
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "2": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 3192,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "3": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 4,
+        "missed": 1
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 6133,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      },
+      "4": {
+       "calls_with_unknown_usage": 0,
+       "cost": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "known_subtotal": {
+        "model_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0
+       },
+       "model_calls_per_goal_met": 0.0,
+       "outcomes": {
+        "met_alone": 5
+       },
+       "positions": 5,
+       "positions_with_unknown_cost": 0,
+       "seconds": {
+        "holding_none": 0,
+        "holding_pending": 0,
+        "procedure": 4599,
+        "reasoning_model": 0,
+        "small_model": 0
+       },
+       "unknown_calls": {
+        "tokens_in": 0,
+        "tokens_out": 0
+       }
+      }
+     },
+     "d1_learning_share_on_matched": {
+      "model_calls": 0.8877127774186597,
+      "tokens_in": 8281.521735617323,
+      "tokens_out": 58583.988633915105
+     },
+     "pooled": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 34,
+       "tokens_in": 31668,
+       "tokens_out": 1755
+      },
+      "known_subtotal": {
+       "model_calls": 34,
+       "tokens_in": 31668,
+       "tokens_out": 1755
+      },
+      "model_calls_per_goal_met": 1.8888888888888888,
+      "outcomes": {
+       "met_alone": 17,
+       "met_with_help": 1,
+       "missed": 2
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 3516,
+       "holding_pending": 56,
+       "procedure": 16405,
+       "reasoning_model": 0,
+       "small_model": 28
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    },
+    "L_all_positions": {
+     "1": {
+      "calls_with_unknown_usage": 1,
+      "cost": {
+       "model_calls": 169,
+       "tokens_in": null,
+       "tokens_out": null
+      },
+      "known_subtotal": {
+       "model_calls": 169,
+       "tokens_in": 156307,
+       "tokens_out": 12926
+      },
+      "model_calls_per_goal_met": 12.071428571428571,
+      "outcomes": {
+       "met_alone": 10,
+       "met_with_help": 4,
+       "missed": 6
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 17580,
+       "holding_pending": 280,
+       "procedure": 9872,
+       "reasoning_model": 0,
+       "small_model": 140
+      },
+      "unknown_calls": {
+       "tokens_in": 1,
+       "tokens_out": 1
+      }
+     },
+     "2": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 12800,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "3": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 19,
+       "missed": 1
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 19031,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "4": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 17,
+       "missed": 3
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 16708,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "5": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": null,
+      "outcomes": {
+       "missed": 20
+      },
+      "positions": 20,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 13366,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     }
+    }
+   },
+   "rq2": [
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 4,
+       "missed": 1
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 7135,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 4,
+       "missed": 1
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 7135,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 5328,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 0,
+     "attempts": 0,
+     "boundary": "s4304-p3-e04",
+     "informative": false
+    },
+    {
+     "F_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3272,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_after": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3272,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "L_before": {
+      "calls_with_unknown_usage": 0,
+      "cost": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "known_subtotal": {
+       "model_calls": 0,
+       "tokens_in": 0,
+       "tokens_out": 0
+      },
+      "model_calls_per_goal_met": 0.0,
+      "outcomes": {
+       "met_alone": 5
+      },
+      "positions": 5,
+      "positions_with_unknown_cost": 0,
+      "seconds": {
+       "holding_none": 0,
+       "holding_pending": 0,
+       "procedure": 3296,
+       "reasoning_model": 0,
+       "small_model": 0
+      },
+      "unknown_calls": {
+       "tokens_in": 0,
+       "tokens_out": 0
+      }
+     },
+     "adoptions": 0,
+     "attempts": 0,
+     "boundary": "s4304-p3-e14",
+     "informative": false
+    }
+   ],
+   "statuses": {
+    "C": {
+     "complete": 20
+    },
+    "C-full": {
+     "complete": 20
+    },
+    "F": {
+     "complete": 10
+    },
+    "L": {
+     "complete": 100
+    }
+   },
+   "stream": 4304
+  }
+ ],
+ "rules": "protocol amendment 7 and sections 7 and 8; no significance test across four streams",
+ "study": "/Users/s.vajda/Development/DCARR-RUNTIME/cluster-records/scored-4304-20261102/terminal/originals/scored-4301-4304-20261029"
+}

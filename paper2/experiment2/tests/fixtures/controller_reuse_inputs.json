@@ -1,0 +1,3972 @@
+{
+  "source_reference_commit": "b71d3fd2c30e00a9099f5a0e7c1413a053dcce5b",
+  "purpose": "fixed invented public inputs for old/new equivalence only; no profile projection or scientific flight",
+  "cases": [
+    {
+      "id": "h150-l10-r0.15-s10/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l10-r0.15-s10/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h150-l10-r0.15-s30/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l10-r0.15-s30/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h150-l10-r0.2-s10/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l10-r0.2-s10/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h150-l10-r0.2-s30/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l10-r0.2-s30/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.15-s10/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.15-s10/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.15-s30/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.15-s30/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.2-s10/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.2-s10/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.2-s30/fresh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h150-l20-r0.2-s30/stale",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.15-s10/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.15-s10/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.15-s30/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.15-s30/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.2-s10/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.2-s10/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.2-s30/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l10-r0.2-s30/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.15-s10/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.15-s10/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.15-s30/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.15-s30/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.2-s10/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.2-s10/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.2-s30/fresh",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h300-l20-r0.2-s30/stale",
+      "search": {
+        "horizon_s": 300,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.15-s10/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.15-s10/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.15-s30/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.15-s30/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.2-s10/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.2-s10/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.2-s30/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l10-r0.2-s30/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 10,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.15-s10/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.15-s10/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.15-s30/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.15-s30/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.15,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.2-s10/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.2-s10/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.2-s30/fresh",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 65.0,
+              "y": 55.0,
+              "measured_at": 0,
+              "received_at": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h600-l20-r0.2-s30/stale",
+      "search": {
+        "horizon_s": 600,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 30
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20.0,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65.0,
+              47.0
+            ],
+            "radius": 8.0,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65.0,
+              55.0
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 180,
+          "own": {
+            "x": 0.0,
+            "y": 0.0,
+            "heading_deg": 0.0,
+            "commanded_heading_deg": 90.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0.0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "refusals": [],
+          "reports": []
+        }
+      ]
+    },
+    {
+      "id": "report-refusal-hold-help-goal-old-target-deadline",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {
+        "report_guard_nm": 0.2,
+        "inbound_guard_nm_s": 1e-09,
+        "stale_after_s": 10
+      },
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 1,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": [
+            {
+              "t": 0,
+              "reason": "invented whole action refusal"
+            }
+          ]
+        },
+        {
+          "t": 2,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 11,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 12,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 2,
+            "tanker": "B",
+            "report_at_nm": 20,
+            "deadline": null
+          },
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 41,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [
+            {
+              "callsign": "A",
+              "x": 68.1051097259443,
+              "y": 54.37280771415111,
+              "measured_at": 41,
+              "received_at": 41,
+              "help_reply": true
+            }
+          ],
+          "refusals": []
+        },
+        {
+          "t": 42,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 43,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 3,
+            "tanker": "B",
+            "report_at_nm": 20,
+            "deadline": 43
+          },
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "deadline-remainder-1",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 50.0,
+            "commanded_heading_deg": 100.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 2,
+            "tanker": "A",
+            "report_at_nm": 20,
+            "deadline": 1
+          },
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "deadline-remainder-119",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 50.0,
+            "commanded_heading_deg": 100.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 2,
+            "tanker": "A",
+            "report_at_nm": 20,
+            "deadline": 119
+          },
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "deadline-remainder-120",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 50.0,
+            "commanded_heading_deg": 100.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 2,
+            "tanker": "A",
+            "report_at_nm": 20,
+            "deadline": 120
+          },
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "deadline-remainder-121",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 50.0,
+            "commanded_heading_deg": 100.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 2,
+            "tanker": "A",
+            "report_at_nm": 20,
+            "deadline": 121
+          },
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "deadline-remainder-149",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 50.0,
+            "commanded_heading_deg": 100.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 2,
+            "tanker": "A",
+            "report_at_nm": 20,
+            "deadline": 149
+          },
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "deadline-remainder-150",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 50.0,
+            "commanded_heading_deg": 100.0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 2,
+            "tanker": "A",
+            "report_at_nm": 20,
+            "deadline": 150
+          },
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "coarse-mesh",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 5,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 0,
+            "heading_deg": 180,
+            "commanded_heading_deg": 180,
+            "tas_nm_s": 0.125,
+            "track_deg": 180,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "errors-and-state-preservation",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 1,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": [
+            {
+              "t": 7,
+              "reason": "invalid"
+            }
+          ]
+        },
+        {
+          "t": 1,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": {
+            "version": 1,
+            "tanker": "A",
+            "report_at_nm": 10,
+            "deadline": null
+          },
+          "reports": [],
+          "refusals": []
+        },
+        {
+          "t": 1,
+          "own": {
+            "x": 65,
+            "y": 35,
+            "heading_deg": 0,
+            "commanded_heading_deg": 0,
+            "tas_nm_s": 0.125,
+            "track_deg": 0,
+            "ground_speed_nm_s": 0.125
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "wind-outbound-report-34.8",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 34.8,
+            "heading_deg": 180,
+            "commanded_heading_deg": 180,
+            "tas_nm_s": 0.125,
+            "track_deg": 170.0,
+            "ground_speed_nm_s": 0.13
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "wind-outbound-report-35.2",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 35.2,
+            "heading_deg": 180,
+            "commanded_heading_deg": 180,
+            "tas_nm_s": 0.125,
+            "track_deg": 170.0,
+            "ground_speed_nm_s": 0.13
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    },
+    {
+      "id": "wind-outbound-report-30.0",
+      "search": {
+        "horizon_s": 150,
+        "sample_s": 1,
+        "heading_spacing_deg": 20,
+        "second_leg_at_s": 120
+      },
+      "adapter": {},
+      "briefing": {
+        "own_callsign": "RECEIVER",
+        "control_callsign": "CONTROL",
+        "goal": {
+          "version": 1,
+          "tanker": "A",
+          "report_at_nm": 20,
+          "deadline": null
+        },
+        "tankers": [
+          {
+            "callsign": "A",
+            "centre": [
+              65,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              65,
+              55
+            ]
+          },
+          {
+            "callsign": "B",
+            "centre": [
+              165,
+              47
+            ],
+            "radius": 8,
+            "speed_nm_s": 0.07777777777777778,
+            "direction": "clockwise",
+            "position_at_0": [
+              165,
+              55
+            ]
+          }
+        ]
+      },
+      "bundles": [
+        {
+          "t": 0,
+          "own": {
+            "x": 65,
+            "y": 30.0,
+            "heading_deg": 180,
+            "commanded_heading_deg": 180,
+            "tas_nm_s": 0.125,
+            "track_deg": 170.0,
+            "ground_speed_nm_s": 0.13
+          },
+          "goal": null,
+          "reports": [],
+          "refusals": []
+        }
+      ]
+    }
+  ],
+  "input_sha256": "303aee3fbaa85ca5e096ac130fdb4ebc5fbf610b1735cb8497cc936e1f69a181"
+}

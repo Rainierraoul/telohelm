@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telohelm"
+version = "0.1.0.dev0"
+description = "Research prototype for tested procedure learning and model handover"
+requires-python = ">=3.12"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "jinja2>=3.1", "tokenizers>=0.20"]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "hypothesis", "scikit-learn", "threadpoolctl"]
+cartpole = ["gymnasium==1.4.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["telohelm*"]
+
+[tool.setuptools.package-data]
+"telohelm" = ["model_files/*/*", "demo_data/*.json"]
+"telohelm.taskpacks.tanker" = ["guards/*.py"]

@@ -1,0 +1,19 @@
+# Python 3.12.15, macOS arm64; NumPy 1.26.4 uses OpenBLAS (NumPy 2 on macOS uses Accelerate, which raises spurious floating-point warnings in matrix products).
+# tokenizers is installed with --no-deps: only Tokenizer.from_str is used, which needs no Hugging Face Hub client.
+# hypothesis and sortedcontainers are for development tests only (21 October 2026); tests that use them skip where
+# they are not installed, and nothing in Telohelm imports them.
+cloudpickle==3.1.2
+hypothesis==6.170.5
+iniconfig==2.3.1
+jinja2==3.1.4
+joblib==1.6.0
+markupsafe==2.1.5
+numpy==1.26.4
+packaging==26.3
+pluggy==1.6.0
+pytest==8.3.3
+scikit-learn==1.5.2
+scipy==1.14.1
+sortedcontainers==2.4.0
+threadpoolctl==3.7.0
+tokenizers==0.21.0

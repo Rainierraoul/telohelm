@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title description">
+  <title id="title">Acting and learning follow separate paths</title>
+  <desc id="description">During an episode, the goal and the observations form the context; Telohelm selects an adopted procedure or a model, checks the output and acts, and the simulator advances and scores the goal. Between episodes, episode records and goal outcomes go to the reasoning model, which writes a candidate procedure; the monitor replays recorded episodes with the candidate, and only the monitor can add it to the library of adopted procedures, which later decisions use. The simulator's hidden state reaches the goal score and the monitor's replays, and never the reasoning model.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#111"/></marker></defs>
+  <rect width="900" height="700" fill="white"/>
+  <g font-family="Times New Roman, Times, serif" font-size="23" fill="#111" text-anchor="middle">
+    <text x="210" y="32">During an episode</text>
+    <text x="675" y="32">Between episodes</text>
+    <g stroke="#111" stroke-width="2" fill="white">
+      <rect x="75" y="85" width="270" height="85"/>
+      <rect x="75" y="230" width="270" height="85"/>
+      <rect x="75" y="390" width="270" height="85"/>
+      <rect x="75" y="550" width="270" height="75"/>
+      <rect x="535" y="85" width="280" height="85"/>
+      <rect x="535" y="230" width="280" height="85"/>
+      <rect x="535" y="390" width="280" height="85"/>
+      <rect x="535" y="550" width="280" height="75"/>
+    </g>
+    <text x="210" y="119">Build context from goal</text><text x="210" y="148">and the observations</text>
+    <text x="210" y="263">Select an adopted</text><text x="210" y="292">procedure or a model</text>
+    <text x="210" y="424">Check the output</text><text x="210" y="453">and act</text>
+    <text x="210" y="583">Simulator advances</text><text x="210" y="611">and scores the goal</text>
+    <text x="675" y="119">Episode records</text><text x="675" y="148">and goal outcomes</text>
+    <text x="675" y="263">Reasoning model writes</text><text x="675" y="292">a candidate procedure</text>
+    <text x="675" y="424">Monitor replays episodes</text><text x="675" y="453">with the candidate</text>
+    <text x="675" y="583">Library of adopted</text><text x="675" y="611">procedures</text>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M210 170 V230"/><path d="M210 315 V390"/><path d="M210 475 V550"/>
+    <path d="M75 587 H25 V127 H75"/>
+    <path d="M535 587 H435 V272 H345"/>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="9 5" marker-end="url(#arrow)">
+    <path d="M675 170 V230"/><path d="M675 315 V390"/><path d="M675 475 V550"/>
+    <path d="M210 625 V670 H865 V127 H815"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+Telohelm
+Copyright (c) 2026 Simon Vajda
+
+The code in this repository is licensed under the MIT License (LICENSE).
+Documentation, the study protocol, figures and the study records are licensed
+under CC BY 4.0 (LICENSE-data).
+
+Third-party files
+
+The following files are copied unmodified from the Qwen/Qwen3.8-27B model
+repository at revision 1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0, published by
+the Qwen team under the Apache License, Version 2.0 (LICENSE-APACHE-2.0):
+
+  telohelm/src/telohelm/model_files/Qwen3.8-27B-1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/tokenizer.json
+    SHA-256 0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3
+  telohelm/src/telohelm/model_files/Qwen3.8-27B-1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/tokenizer_config.json
+    SHA-256 b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27
+  telohelm/src/telohelm/model_files/Qwen3.8-27B-1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/chat_template.jinja
+    SHA-256 c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041
+
+They are used to count tokens and to format requests exactly as the served
+model does. No model weights are included. The two models used in the study,
+Qwen/Qwen3-4B-Instruct-2507 (revision cdbee75f17c01a7cc42f958dc650907174af0554)
+and Qwen/Qwen3.8-27B (revision 1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0), are
+available from their publishers under their own licences.
