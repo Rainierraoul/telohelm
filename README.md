@@ -48,6 +48,8 @@ paper2/release/             reproduce_tables.py
 
 ## Reproduce the paper's tables
 
+For a first check with a 322 KiB download, [read the model-call counts for four streams](docs/READ-MODEL-CALLS.md).
+
 Download the six data ZIPs from the data archive (https://doi.org/10.5281/zenodo.23993339) and unzip all of them into one folder. That folder then holds `scored-4301-4304-20261029/`, `frozen-analysis/` and `jobs/`. After the setup above, run this from the repository root, with a new folder for `--out`:
 
 ```sh
